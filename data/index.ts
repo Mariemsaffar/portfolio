@@ -105,7 +105,7 @@ export const DATA = {
       name: "Sofiane Bahmed",
       title: "Full Stack Developer",
       image:
-        "https://res.cloudinary.com/devq06psf/image/upload/v1750626859/chic_soba_apc1ht.png",
+        "https://res.cloudinary.com/devq06psf/image/upload/v1750626923/chic_soba_bkhd8o.png",
       description: [
         "I'm a creative full-stack developer with a passion for UI/UX design and clean code. I focus on building beautiful, functional, and high-performance websites and web apps.",
         "My approach is both technical and aesthetic — I enjoy turning complex problems into elegant user experiences. I work primarily with modern frameworks like React, Vite, and TailwindCSS.",
