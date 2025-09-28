@@ -2,12 +2,13 @@ export const DATA = {
   home: {
     hero: {
       name: "Mariem SAFFAR",
+      title:"",
       subtitle:
         "Frontend Developer with one year of hands-on experience. My expertise lies in React.js , where I build dynamic user experiences. For backend development, I specialize in Symfony PHP and Nest.js, delivering robust and efficient server-side solutions.",
     },
     skills: {
       sectionTitle: "technologies & Expertise",
-
+      sectionDescription:"",
       overview: [
 
         {
@@ -27,6 +28,7 @@ export const DATA = {
     },
     testimonials: {
       sectionTitle: "Professional Experience & Internship Companies",
+      sectionDescription: "",
       items: [
         {
           id: 1,
@@ -209,6 +211,7 @@ export const DATA = {
         details:
           "Developed a full-stack web application as my final year project for learning musical instruments, featuring live/recorded classes (Google Meet), scheduling with Google Maps, a marketplace for buying/selling instruments, blogs, and multi-role administration (7+ actors). Built with React, Redux Toolkit & RTK Query, Nest.js, MySQL, Redis, and Firebase Storage, and deployed with Laravel Forge.",
         github: "https://github.com/Mariemsaffar",
+        live: "",
         tech: [
           { name: "React", icon: "logos:react" },
           { name: "TailwindCSS", icon: "logos:tailwindcss" },
@@ -235,6 +238,7 @@ export const DATA = {
         details:
           "APO is a platform designed to centralize and provide access to laws, decrees, and regulations related to the petroleum sector, published by the relevant ministry. It enables users to easily consult current legislation and stay informed about regulatory updates.",
         github: "https://github.com/Mariemsaffar",
+        live: "",
         tech: [
           { name: "React", icon: "logos:react" },
           { name: "Node.js", icon: "logos:nodejs-icon" },
@@ -258,6 +262,7 @@ export const DATA = {
         details:
           "MediConsult is a platform dedicated to medical practices, designed to manage patient records efficiently. It allows patients to book appointments with the medical office through an integrated messaging system and to ask questions online directly to their doctors.",
         github: "https://github.com/Mariemsaffar",
+        live: "",
         tech: [
           { name: "React", icon: "logos:react" },
           { name: "Node.js", icon: "logos:nodejs-icon" },
@@ -280,6 +285,7 @@ export const DATA = {
         details:
           "AI-powered chat assistant developed with React and TailwindCSS. Integrated with OpenAI’s GPT API for contextual conversations, deployed via Vercel with real-time response and adaptive UI.",
         github: "https://github.com/Mariemsaffar",
+        live: "",
         tech: [
           { name: "React", icon: "logos:react" },
           { name: "Node.js", icon: "logos:nodejs-icon" },
@@ -306,6 +312,7 @@ export const DATA = {
         details:
           "A business intelligence project that provides an interactive dashboard visualizing salaries of software engineers across various roles, including Data Analysts, BI Developers, Data Engineers, and Machine Learning Engineers. I collected and prepared a dataset, performed data analysis with machine learning techniques, and implemented the results into a BI dashboard to deliver actionable insights and salary comparisons by domain.",
         github: "https://github.com/Mariemsaffar",
+        live: "",
         tech: [
           { name: "Python", icon: "logos:python" },
         ],
@@ -324,6 +331,7 @@ export const DATA = {
         details:
           "An intelligent transliteration platform that converts Tunisian dialect into Standard Arabic with high accuracy. It combines rule-based methods, LSTM models, and GPT-3 fine-tuning to handle linguistic complexity, supported by advanced NLP techniques and error-correction mechanisms for improved reliability.",
         github: "https://github.com/Mariemsaffar",
+        live: "",
         tech: [
           { name: "Python", icon: "logos:python" },
         ],
@@ -344,6 +352,7 @@ export const DATA = {
         details:
           "A productivity app designed for content creators featuring calendar syncing, automated post publishing, rich media previews, and cloud synchronization for seamless cross-device access.",
         github: "https://github.com/Mariemsaffar",
+        live: "",
         tech: [
           { name: "React", icon: "logos:react" },
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
