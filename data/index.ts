@@ -280,6 +280,12 @@ export const DATA = {
         details:
           "AI-powered chat assistant developed with React and TailwindCSS. Integrated with OpenAI’s GPT API for contextual conversations, deployed via Vercel with real-time response and adaptive UI.",
         github: "https://github.com/Mariemsaffar",
+        tech: [
+          { name: "React", icon: "logos:react" },
+          { name: "Node.js", icon: "logos:nodejs-icon" },
+          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
+          { name: "TypeScript", icon: "logos:typescript-icon" },
+        ],
       },
       {
         id: 5,
