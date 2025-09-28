@@ -1,163 +1,138 @@
 export const DATA = {
   home: {
     hero: {
-      name: "Sofiane Bahmed",
-      title: "Full stack developer & UI/UX Designer",
+      name: "Mariem SAFFAR",
       subtitle:
-        "I build fast, accessible and visually engaging web experiences.",
+        "Frontend Developer with one year of hands-on experience. My expertise lies in React.js , where I build dynamic user experiences. For backend development, I specialize in Symfony PHP and Nest.js, delivering robust and efficient server-side solutions.",
     },
     skills: {
-      sectionTitle: "Skills & Expertise",
-      sectionDescription:
-        " Specialized in creating modern digital experiences with cutting-edge technologies",
+      sectionTitle: "technologies & Expertise",
+
       overview: [
-        {
-          name: "UI/UX Design",
-          level: 95,
-          icon: "lucide:layout-dashboard",
-          color: "primary",
-        },
+
         {
           name: "Frontend Development",
-          level: 90,
+          level: 87,
           icon: "lucide:code",
           color: "secondary",
         },
         {
-          name: "Mobile Development",
-          level: 85,
+          name: "Backend Development",
+          level: 95,
           icon: "lucide:smartphone",
           color: "success",
         },
-        {
-          name: "Motion Design",
-          level: 88,
-          icon: "lucide:video",
-          color: "warning",
-        },
+
       ],
     },
     testimonials: {
-      sectionTitle: "Client Testimonials",
-      sectionDescription: "What clients say about working together",
+      sectionTitle: "Professional Experience & Internship Companies",
       items: [
         {
           id: 1,
-          name: "Sarah Johnson",
-          role: "Product Manager at TechNova",
+          name: "Euro Tech Conseil Kairouan",
+          role: "Professional Experience",
           content:
-            "The design system created for our SaaS platform reduced our development time by 40% while improving consistency across all our products. The attention to accessibility standards was particularly impressive.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=1",
+            "Euro Tech Conseil is a development agency , specializing in creating innovative web and mobile solutions.",
+          avatar: "etc.jpg",
         },
         {
           id: 2,
-          name: "Michael Chen",
-          role: "CTO at StartUpGrid",
+          name: "Anypli Sousse",
+          role: "Internship Experience",
           content:
-            "Working with this team transformed our mobile app's user retention by 35% in just three months. Their data-driven design approach helped us identify pain points we didn't even know existed.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=2",
+            "A software development agency providing custom web & mobile applications, digital communication, and marketing solutions.",
+          avatar: "anypli.jpg",
         },
         {
           id: 3,
-          name: "David Rodriguez",
-          role: "UX Director at FinTech Global",
+          name: "Adn Expertise Sousse",
+          role: "Internship Experience",
           content:
-            "The dashboard redesign resulted in a 50% reduction in support tickets. Their ability to balance complex financial data with clean visualization is unmatched in the industry.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=3",
+            "A digital consulting and development agency in Sousse offering web & mobile development, BI & Big Data, AI, and digital strategy.",
+          avatar: "adn_exp.jpg",
         },
         {
           id: 4,
-          name: "Priya Patel",
-          role: "E-commerce Manager at StyleHub",
-          content:
-            "Our conversion rate increased by 28% after implementing their checkout flow redesign. They understood our international user base better than our internal team.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=4",
-        },
-        {
-          id: 5,
-          name: "James Wilson",
-          role: "Head of Product at HealthTrack",
-          content:
-            "The healthcare app we built together received FDA approval largely due to its intuitive patient interface. Their understanding of regulatory requirements saved us months of rework.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=5",
-        },
-        {
-          id: 6,
-          name: "Lisa Nguyen",
-          role: "Marketing Director at EduTech Solutions",
-          content:
-            "Our user onboarding completion rate went from 65% to 92% after their redesign. The way they simplified complex educational concepts into clear interfaces was remarkable.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=6",
-        },
-        {
-          id: 7,
-          name: "Thomas Okafor",
-          role: "Founder at AgriTech Africa",
-          content:
-            "They designed an agricultural monitoring app that works perfectly even in low-connectivity rural areas. Cultural sensitivity and technical innovation in perfect balance.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=7",
+          name: "Envast Sousse",
+          role: "Internship Experience",
+          content: "A tech agency in Sousse specializing in web and mobile app development, video games, and AR/VR solutions.",
+          avatar: "envast.png",
         },
       ],
     },
   },
   about: {
     profile: {
-      name: "Sofiane Bahmed",
-      title: "Full Stack Developer",
+      name: "Mariem SAFFAR",
+      title: "Full-Stack Developer",
       image:
-        "https://res.cloudinary.com/devq06psf/image/upload/v1750626923/chic_soba_bkhd8o.png",
+        "pmariem.png",
       description: [
-        "I'm a creative full-stack developer with a passion for UI/UX design and clean code. I focus on building beautiful, functional, and high-performance websites and web apps.",
-        "My approach is both technical and aesthetic — I enjoy turning complex problems into elegant user experiences. I work primarily with modern frameworks like React, Vite, and TailwindCSS.",
-        "Outside of code, I enjoy motion design, product strategy, and always pushing the boundaries of front-end development.",
+        "I am a results-driven full-stack developer specializing in scalable and maintainable web applications. My technical stack includes React with Redux for dynamic front-end interfaces , Nest.js and Symfony/PHP for robust back-end development. I have strong experience designing and consuming RESTful APIs, integrating secure authentication, and maintaining code quality through clean architecture.I am skilled in Docker for containerization and deploying applications on AWS, enabling smooth CI/CD pipelines and efficient scalability.",
       ],
     },
     education: [
       {
-        title: "High School of Art and Design",
-        date: "2003 - 2006",
+        title: "Pilot Primary School of Kairouan",
+        date: "2012 - 2015",
         icon: "mdi:palette",
         description:
-          "Focused on foundational art and visual design principles, which sparked my early interest in creative problem solving. Explored traditional media, digital illustration, and visual storytelling.",
+          "A prestigious school that selects high-achieving primary students through a competitive process. It provides a rigorous academic environment to develop their full potential.",
       },
       {
-        title: "University of Technology and Design",
-        date: "2006 - 2010",
+        title: "Pilot Secondary School of Kairouan",
+        date: "2015 - 2019",
         icon: "mdi:school",
         description:
-          "Earned a Bachelor's degree in Computer Science with a minor in Design. Gained strong skills in software development, user interface engineering, data structures, and human-computer interaction.",
+          "An elite secondary school for talented students identified through competitive selection. It offers an advanced curriculum to foster academic excellence and prepare for higher education",
       },
       {
-        title: "Institute of Interactive Media",
-        date: "2011 - 2012",
+        title: "Polytechnic School of Sousse Classical Preparatory MP",
+        date: "2019 - 2021",
         icon: "mdi:school-outline",
         description:
-          "Completed a Master's degree specializing in UX/UI Design and Front-End Development. Merged technical expertise with visual communication to design user-centered digital products and prototypes.",
+          "The Classical Preparatory MP (Mathematics-Physics) is a rigorous preparatory cycle that prepares students for the National Engineering Entrance Exam (Concours National d’Ingénierie). It focuses on advanced training in mathematics, physics, and engineering fundamentals to equip students for top engineering programs.",
+      },
+      {
+        title: "Polytechnic School of Sousse",
+        date: "2021 - 2024",
+        icon: "mdi:school-outline",
+        description:
+          "A higher education cycle leading to an Engineering degree with a specialization in Software Engineering, providing expertise in software development, system design, programming methodologies, deployment, application testing, and practical experience with various technologies through academic projects.",
       },
     ],
     experience: [
       {
-        title: "Creative Director",
-        date: "2018 - Present",
+        title: "Full-Stack Developer – Euro Tech Conseil",
+        date: "Sept 2024 - Present",
         icon: "mdi:briefcase",
         description:
-          "Lead creative and development teams to build digital experiences that combine innovation with user empathy. Oversee branding, UI/UX strategy, and development pipelines for tech startups and clients.",
+          "Currently contributing to professional projects as a full-stack developer, working on both front-end and back-end solutions with Angular and symfonyPHP.",
       },
       {
-        title: "Senior UX Engineer",
-        date: "2015 - 2018",
+        title: "Web Development Intern – Anypli (Final-year Project)",
+        date: "Feb 2024 - May 2024",
         icon: "mdi:monitor-dashboard",
         description:
-          "Designed and implemented high-fidelity web interfaces using React, Figma, and Tailwind. Collaborated cross-functionally with developers and designers to craft intuitive user flows and interactions.",
+          "Developed a web application using ReactTS, RTK Query, and NestJS, with MySQL, Firebase Storage, Redis, Docker, Leaflet maps, Google Cloud, and AI integrations. Focused on scalable architecture and advanced features.",
       },
       {
-        title: "Front-End Developer & Designer",
-        date: "2012 - 2015",
+        title: "Full-Stack Developer – ADN Expertise Company",
+        date: "July 2023 - August 2023",
         icon: "mdi:code-tags",
         description:
-          "Developed responsive websites and applications with a focus on accessibility, visual aesthetics, and performance. Delivered pixel-perfect interfaces from wireframes to production code.",
+          "Worked on full-stack projects using ReactJS, Redux, NestJS, and MongoDB, contributing to feature development and application optimization.",
+      },
+      {
+        title: "Front-end Developer – Envast Company",
+        date: "July 2022 - Sept 2022",
+        icon: "mdi:code-tags",
+        description:
+          "Built responsive web applications using ReactJS and RESTful APIs, ensuring high performance and clean code.",
       },
     ],
+
     technologies: {
       frontend: {
         description:
@@ -176,7 +151,6 @@ export const DATA = {
           "I build fast APIs and scalable backends using Node.js, Bun, and Python.",
         tools: [
           { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Bun", icon: "logos:bun" },
           { name: "Python", icon: "logos:python" },
           { name: "MySQL", icon: "logos:mysql-icon" },
           { name: "PostgresSQL", icon: "logos:postgresql" },
@@ -218,47 +192,52 @@ export const DATA = {
     work: [
       {
         id: 1,
-        title: "Digital Banking App",
+        title: "Harmony Academy App",
         description:
-          "A streamlined digital banking interface emphasizing clarity, speed, and intuitive design.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
+          "Developed a full-stack web platform for learning musical instruments, featuring live/recorded lessons with scheduling and maps integration, and an e-commerce module for buying/selling instruments. Managed over seven user roles, including platform, course, and shop administration.",
+        image: "harm1.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-3",
+          "harm3.png",
+          "harm2.png",
+          "ha3.png",
+          "ha6.png",
+          "ha9.png",
+          "ha10.png",
+          "ha12.png",
         ],
         category: "Applications",
         details:
-          "A feature-rich digital banking app built with React and TailwindCSS, integrating seamless animations via Framer Motion. Designed with a mobile-first approach and a modular component system powered by TypeScript and Vite.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "Developed a full-stack web application as my final year project for learning musical instruments, featuring live/recorded classes (Google Meet), scheduling with Google Maps, a marketplace for buying/selling instruments, blogs, and multi-role administration (7+ actors). Built with React, Redux Toolkit & RTK Query, Nest.js, MySQL, Redis, and Firebase Storage, and deployed with Laravel Forge.",
+        github: "https://github.com/Mariemsaffar",
         tech: [
           { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "Expo", icon: "simple-icons:expo" },
-        ],
+          { name: "TailwindCSS", icon: "logos:tailwindcss" },
+          { name: "TypeScript", icon: "logos:typescript" },
+          { name: "Node.js", icon: "logos:nodejs" },
+          { name: "MySQL", icon: "logos:mysql" },
+          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
+          { name: "Swagger", icon: "simple-icons:swagger" },
+        ],        
       },
       {
         id: 2,
-        title: "E-commerce Platform",
+        title: "APO Platform",
         description:
-          "Scalable and responsive online store with dynamic product filtering and intuitive cart management.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
+          "APO is a platform designed to centralize and provide access to laws, decrees, and regulations related to the petroleum sector, published by the relevant ministry. It enables users to easily consult current legislation and stay informed about regulatory updates.",
+        image: "apo4.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-3",
+          "apo3.png",
+          "apo12.png",
+          "apo11.png",
+          "apo15.jpeg",
         ],
         category: "Web Development",
         details:
-          "A fully functional e-commerce platform built with React and TailwindCSS. Features product listings, advanced filters, cart and checkout system, and a modern UI with responsive design for all devices.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "APO is a platform designed to centralize and provide access to laws, decrees, and regulations related to the petroleum sector, published by the relevant ministry. It enables users to easily consult current legislation and stay informed about regulatory updates.",
+        github: "https://github.com/Mariemsaffar",
         tech: [
           { name: "React", icon: "logos:react" },
+          { name: "Node.js", icon: "logos:nodejs-icon" },
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
           { name: "TypeScript", icon: "logos:typescript-icon" },
           { name: "PostgreSQL", icon: "logos:postgresql" },
@@ -266,189 +245,102 @@ export const DATA = {
       },
       {
         id: 3,
-        title: "Travel Booking System",
+        title: "MediConsult",
         description:
-          "Comprehensive booking platform for flights, hotels, and rentals with live availability.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
+          "MediConsult is a platform dedicated to medical practices, designed to manage patient records efficiently. It allows patients to book appointments with the medical office through an integrated messaging system and to ask questions online directly to their doctors.",
+        image: "mediconsult1.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-3",
+          "mediconsult2.png",
+          "mediConsult3.png",
+          "mediConsult4.png",
         ],
         category: "Web Development",
         details:
-          "A modern travel booking system built with Next.js and TailwindCSS. Users can search and book flights, hotels, and car rentals with real-time availability and intuitive UI components powered by HeroUI.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "MediConsult is a platform dedicated to medical practices, designed to manage patient records efficiently. It allows patients to book appointments with the medical office through an integrated messaging system and to ask questions online directly to their doctors.",
+        github: "https://github.com/Mariemsaffar",
         tech: [
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
+          { name: "React", icon: "logos:react" },
+          { name: "Node.js", icon: "logos:nodejs-icon" },
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
           { name: "TypeScript", icon: "logos:typescript-icon" },
         ],
       },
       {
         id: 4,
-        title: "AI Chat Assistant",
+        title: "Deeops",
         description:
-          "Smart customer support assistant with contextual awareness and real-time replies.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
+          "DeeOps is an intelligent ERP platform designed to optimize business management by centralizing key processes such as invoicing, treasury, sales, purchases, inventory, subscriptions, and accounting. I contributed to developing front-end and back-end interfaces, including the dashboard and client records, enhancing the platform’s functionality and usability.",
+        image: "dashboard-deeops.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-3",
+          "dashboard-deeops.png",
+          "pc1.png",
+          "pc2.png",
         ],
         category: "Applications",
         details:
           "AI-powered chat assistant developed with React and TailwindCSS. Integrated with OpenAI’s GPT API for contextual conversations, deployed via Vercel with real-time response and adaptive UI.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "OpenAI API", icon: "simple-icons:openai" },
-          { name: "Vercel", icon: "simple-icons:vercel" },
-        ],
+        github: "https://github.com/Mariemsaffar",
       },
       {
         id: 5,
-        title: "Portfolio API & CMS",
+        title: "BI Salary Analytics Dashboard",
         description:
-          "Headless API backend with admin-friendly CMS capabilities.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
+          "A business intelligence project that provides an interactive dashboard visualizing salaries of software engineers across various roles, including Data Analysts, BI Developers, Data Engineers, and Machine Learning Engineers. I collected and prepared a dataset, performed data analysis with machine learning techniques, and implemented the results into a BI dashboard to deliver actionable insights and salary comparisons by domain.",
+        image: "bi1.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-3",
+          "bi2.png",
+          "bi3.png",
+          "bi4.png",
+          "bi5.png",
+          "bi6.png",
+          "bi7.png",
+          "bi8.png",
         ],
         category: "Backend Services",
         details:
-          "A modular REST API built with Node.js and Express, powering dynamic portfolio websites. It includes JWT-based authentication, MySQL integration, and a Swagger-documented CMS interface for easy content management by non-developers.",
-        github: "https://github.com",
+          "A business intelligence project that provides an interactive dashboard visualizing salaries of software engineers across various roles, including Data Analysts, BI Developers, Data Engineers, and Machine Learning Engineers. I collected and prepared a dataset, performed data analysis with machine learning techniques, and implemented the results into a BI dashboard to deliver actionable insights and salary comparisons by domain.",
+        github: "https://github.com/Mariemsaffar",
         tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
-          { name: "Swagger", icon: "simple-icons:swagger" },
+          { name: "Python", icon: "logos:python" },
         ],
       },
       {
         id: 6,
-        title: "Fitness Tracker App",
+        title: "Darija to Arabic",
         description:
-          "Monitor workouts, calorie intake, and goals in one place.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6",
+          "An intelligent transliteration platform that converts Tunisian dialect into Standard Arabic with high accuracy. It combines rule-based methods, LSTM models, and GPT-3 fine-tuning to handle linguistic complexity, supported by advanced NLP techniques and error-correction mechanisms for improved reliability.",
+        image: "sarra6.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-3",
+          "sarra6.png",
+          "sarra2.png",
         ],
         category: "Applications",
         details:
-          "A cross-platform fitness application developed with React Native and styled using TailwindCSS via Expo. It offers calorie tracking, workout logging, analytics via charts, and custom goal-setting—all within a mobile-optimized interface.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "An intelligent transliteration platform that converts Tunisian dialect into Standard Arabic with high accuracy. It combines rule-based methods, LSTM models, and GPT-3 fine-tuning to handle linguistic complexity, supported by advanced NLP techniques and error-correction mechanisms for improved reliability.",
+        github: "https://github.com/Mariemsaffar",
         tech: [
-          { name: "React Native", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "Expo", icon: "simple-icons:expo" },
+          { name: "Python", icon: "logos:python" },
         ],
       },
       {
         id: 7,
-        title: "Content Scheduler",
+        title: "Quiz Application",
         description:
-          "Plan, schedule, and automate your social media posts effortlessly.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7",
+          "A web-based quiz platform built with React that consumes ready-made quiz APIs from the network. It offers quizzes across multiple domains, such as medicine, agriculture, and more, and displays the final score results at the end of each session, providing an interactive and engaging user experience.",
+        image: "quiz1.png"
+        ,
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-3",
+          "quiz2.png",
+          "quiz3.png",
+          "quiz4.png",
         ],
         category: "Applications",
         details:
           "A productivity app designed for content creators featuring calendar syncing, automated post publishing, rich media previews, and cloud synchronization for seamless cross-device access.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
-          { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-        ],
-      },
-      {
-        id: 8,
-        title: "Real Estate Dashboard",
-        description:
-          "Comprehensive dashboard to manage properties, leads, and sales pipelines effectively.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-3",
-        ],
-        category: "Web Development",
-        details:
-          "An admin panel tailored for real estate professionals featuring interactive data visualizations, lead tracking, and CRM system integrations to streamline client and property management.",
-        github: "https://github.com",
-        live: "https://example.com",
+        github: "https://github.com/Mariemsaffar",
         tech: [
           { name: "React", icon: "logos:react" },
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "Chart.js", icon: "simple-icons:chartdotjs" },
-        ],
-      },
-      {
-        id: 9,
-        title: "Crypto Wallet API",
-        description:
-          "Robust backend API for secure cryptocurrency operations and blockchain interactions.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-3",
-        ],
-        category: "Backend Services",
-        details:
-          "Secure Node.js API supporting Ethereum and Bitcoin transactions. Features transaction signing, wallet address creation, and real-time blockchain event monitoring using Web3.js. Enhanced with hardware security module (HSM) integration for secure key management.",
-        github: "https://github.com",
-        tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Ethereum", icon: "logos:ethereum" },
-          { name: "Web3.js", icon: "simple-icons:web3dotjs" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
-        ],
-      },
-      {
-        id: 10,
-        title: "SaaS Subscription API",
-        description:
-          "Backend API managing SaaS subscriptions, billing, and user accounts.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-3",
-        ],
-        category: "Backend Services",
-        details:
-          "RESTful API supporting SaaS subscription workflows with Stripe integration, usage metering, tiered pricing, webhook handling, trial periods, and analytics. Optimized for high concurrency with Redis caching.",
-        github: "https://github.com",
-        tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Stripe", icon: "logos:stripe" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
-          { name: "Redis", icon: "logos:redis" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
         ],
       },
     ],
@@ -458,8 +350,8 @@ export const DATA = {
       "Have a project in mind? Get in touch and let's create something amazing.",
     location: {
       mapSrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.017947223557!2d-122.41941508468191!3d37.774929779759245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809cbb69f3ef%3A0x4c80b42c33b6a77d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1715701234567!5m2!1sen!2sus",
-      address: "San Francisco, CA",
+        "https://www.google.com/maps?q=35.82450,10.63458&z=15&output=embed",
+      address: "SAHLOUL-SOUSSE",
     },
   },
   morphingTexts: {
@@ -474,27 +366,21 @@ export const DATA = {
     { name: "Contact", href: "/contact", icon: "lucide:send" },
   ],
   footer: {
-    name: "Sofiane Bahmed",
+    name: "Mariem SAFFRA",
     description: "Always interested in new projects and collaborations.",
     contact: {
-      email: "hello@example.com",
-      phone: "+1 (555) 123-4567",
-      location: "San Francisco, CA",
+      email: "mariemsaffar442@gmail.com",
+      phone: "+216 40 904 323",
+      location: "SAHLOUL - SOUSSE",
     },
     socialLinks: [
-      { platform: "X", url: "https://x.com", icon: "simple-icons:x" },
-      { platform: "GitHub", url: "https://github.com", icon: "mdi:github" },
+      { platform: "GitHub", url: "https://github.com/Mariemsaffar", icon: "mdi:github" },
       {
         platform: "LinkedIn",
-        url: "https://linkedin.com",
+        url: "https://www.linkedin.com/in/mariem-saffar/",
         icon: "mdi:linkedin",
       },
-      {
-        platform: "Dribbble",
-        url: "https://dribbble.com",
-        icon: "mdi:dribbble",
-      },
     ],
-    services: ["UI/UX Design", "Web Development", "Mobile Apps", "Consulting"],
+    services: ["Full-Stack Web Developer"],
   },
 } as const;

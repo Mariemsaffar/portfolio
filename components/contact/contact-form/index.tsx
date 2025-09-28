@@ -27,7 +27,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
   const handleFormSubmit = useCallback(
     async (e: React.FormEvent) => {
       e.preventDefault();
-      onSubmit(formData); // Pass formData directly to the onSubmit prop
+      onSubmit(formData);
     },
     [formData, onSubmit],
   );
@@ -116,7 +116,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
           maxRows={8}
           minRows={4}
           name="message"
-          placeholder="Tell me about your project, timeline, and any specific requirements..."
+          placeholder=""
           value={formData.message}
           variant="bordered"
           onBlur={() => handleInputBlur("message", formData.message)}
