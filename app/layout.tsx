@@ -17,9 +17,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://portfolio-h8or.vercel.app"),
   title: {
-    default: DATA.home.hero.name,
+    default: `${DATA.home.hero.name} — ${DATA.home.hero.title}`,
     template: `%s | ${DATA.home.hero.name}`,
   },
   description: DATA.home.hero.subtitle,

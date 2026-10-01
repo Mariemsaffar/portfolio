@@ -1,55 +1,47 @@
 "use client";
 import { motion } from "framer-motion";
 import { Icon } from "@iconify/react";
-import { Accordion, AccordionItem } from "@heroui/react";
 
-import { OrbitingCircles } from "@/components/orbiting-circles";
 import { SectionHeader } from "@/components/about/section-header";
-import { capitalize } from "@/lib/utils";
-import { TechCategories } from "@/components/about/types";
+import { containerVariants, itemVariants } from "@/components/about/variants";
+import { SkillCategories } from "@/components/about/types";
 
 interface SkillsProps {
-  tech: TechCategories;
+  skills: SkillCategories;
 }
 
-export const Skills = ({ tech }: SkillsProps) => (
-  <motion.div
-    initial={{ opacity: 0, y: 40 }}
-    transition={{ duration: 0.6 }}
-    viewport={{ once: true }}
-    whileInView={{ opacity: 1, y: 0 }}
-  >
+export const Skills = ({ skills }: SkillsProps) => (
+  <div className="mb-20">
     <SectionHeader icon="mdi:tools" title="Skills" />
 
-    <Accordion selectionMode="multiple" variant="bordered">
-      {Object.entries(tech).map(([category, { description, tools }]) => (
-        <AccordionItem
-          key={category}
-          aria-label={category}
-          title={capitalize(category)}
+    <motion.div
+      className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"
+      initial="hidden"
+      variants={containerVariants}
+      viewport={{ once: true, amount: 0.1 }}
+      whileInView="visible"
+    >
+      {skills.map((category) => (
+        <motion.div
+          key={category.title}
+          className="rounded-2xl border border-divider bg-white/80 dark:bg-black/50 backdrop-blur-md p-5"
+          variants={itemVariants}
         >
-          <p className="mb-4 text-sm text-muted-foreground">{description}</p>
-
-          <div className="relative h-[300px] w-full">
-            <OrbitingCircles
-              className="h-full w-full [&>div]:hover:scale-110 [&>div]:hover:text-primary-500"
-              duration={20}
-              radius={120}
-            >
-              {tools.map((tool) => (
-                <div key={tool.name}>
-                  <Icon
-                    className="transition-all duration-300"
-                    height={24}
-                    icon={tool.icon}
-                    width={24}
-                  />
-                </div>
-              ))}
-            </OrbitingCircles>
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-9 h-9 rounded-lg bg-primary-500/10 text-primary-500 flex items-center justify-center">
+              <Icon className="w-5 h-5" icon={category.icon} />
+            </div>
+            <h3 className="font-semibold">{category.title}</h3>
           </div>
-        </AccordionItem>
+          <div className="flex flex-wrap gap-2">
+            {category.items.map((item) => (
+              <span key={item} className="text-xs px-2.5 py-1 rounded-md bg-content2 text-foreground-600">
+                {item}
+              </span>
+            ))}
+          </div>
+        </motion.div>
       ))}
-    </Accordion>
-  </motion.div>
+    </motion.div>
+  </div>
 );

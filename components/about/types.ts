@@ -1,8 +1,14 @@
+export interface ProfileFact {
+  readonly icon: string;
+  readonly label: string;
+}
+
 export interface ProfileCardProps {
   image: string;
   name: string;
   title: string;
   description: readonly string[];
+  facts: readonly ProfileFact[];
 }
 
 export interface SectionHeaderProps {
@@ -11,33 +17,31 @@ export interface SectionHeaderProps {
   className?: string;
 }
 
-export interface TimelineItemProps {
-  title: string;
-  date: string;
-  description: string;
-  variants?: any;
-  delay?: number;
-}
-
 export interface EducationItem {
   readonly title: string;
+  readonly school: string;
   readonly date: string;
   readonly description: string;
-  readonly icon?: string;
 }
 
-export interface ExperienceItem extends EducationItem {}
+export interface ExperienceItem {
+  readonly role: string;
+  readonly company: string;
+  readonly logo: string;
+  readonly location: string;
+  readonly date: string;
+  readonly current: boolean;
+  readonly summary: string;
+  readonly highlights: readonly string[];
+  readonly tags: readonly string[];
+}
 
-export interface TechItem {
-  readonly name: string;
+export interface SkillCategory {
+  readonly title: string;
   readonly icon: string;
-}
-
-export interface TechCategory {
-  readonly description: string;
-  readonly tools: readonly TechItem[];
+  readonly items: readonly string[];
 }
 
 export type EducationItems = readonly EducationItem[];
 export type ExperienceItems = readonly ExperienceItem[];
-export type TechCategories = Readonly<Record<string, TechCategory>>;
+export type SkillCategories = readonly SkillCategory[];

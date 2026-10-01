@@ -13,10 +13,10 @@ export const ProjectCard = memo(function ProjectCard({
       isFooterBlurred
       isHoverable
       className="
-        border-none bg-white/90 dark:bg-black/70
-        shadow-md dark:shadow-cyan-900/40
+        border border-divider bg-white/90 dark:bg-black/60
+        shadow-md hover:-translate-y-1 hover:shadow-xl hover:shadow-primary-500/10
         rounded-xl overflow-hidden h-full w-full
-        transition-colors
+        transition-all duration-300
       "
       radius="lg"
     >
@@ -59,10 +59,10 @@ export const ProjectCard = memo(function ProjectCard({
           </p>
           <Button
             aria-label="View Details"
-            className="w-full md:w-auto border-cyan-400 text-cyan-300 hover:bg-cyan-400/10 transition-colors"
+            className="w-full md:w-auto font-medium"
             color="primary"
             endContent={<Icon icon="lucide:arrow-right" />}
-            variant="bordered"
+            variant="flat"
             onClick={onViewDetails}
           >
             View Details

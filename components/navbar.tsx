@@ -40,11 +40,17 @@ export const Navigation = () => {
             transition={{ duration: 0.5 }}
           >
             <Link
-              className="font-bold text-inherit text-xl bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent"
+              className="flex items-center gap-2.5 text-foreground"
               href="/"
               onClick={() => setIsMenuOpen(false)}
             >
-              Portfolio
+              <span className="w-9 h-9 rounded-lg bg-primary-500 text-white font-bold text-sm flex items-center justify-center">
+                MS
+              </span>
+              <span className="hidden md:flex flex-col leading-tight">
+                <span className="font-semibold">{DATA.home.hero.name}</span>
+                <span className="text-xs text-foreground-500">{DATA.home.hero.title}</span>
+              </span>
             </Link>
           </motion.div>
         </NavbarBrand>

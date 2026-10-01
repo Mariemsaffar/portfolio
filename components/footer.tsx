@@ -10,7 +10,7 @@ export const Footer = () => {
   const { name, description, contact, socialLinks, services } = DATA.footer;
 
   return (
-    <footer className="bg-content1 py-12">
+    <footer className="bg-content1 border-t border-divider py-12">
       <motion.div
         className="container mx-auto px-4"
         initial={{ opacity: 0, y: 40 }}
@@ -20,7 +20,8 @@ export const Footer = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Let&apos;s Connect</h3>
+            <h3 className="text-2xl font-bold mb-1">{name}</h3>
+            <p className="text-primary-500 font-medium mb-4">{DATA.home.hero.title}</p>
             <p className="text-foreground-600 mb-4">{description}</p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => (
@@ -66,7 +67,7 @@ export const Footer = () => {
         </div>
         <div className="border-t border-divider pt-8 text-center text-foreground-500">
           <p>
-            © {new Date().getFullYear()} {name}. made with &hearts;.
+            © {new Date().getFullYear()} {name}. All rights reserved.
           </p>
         </div>
       </motion.div>

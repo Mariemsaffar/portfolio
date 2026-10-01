@@ -1,17 +1,18 @@
 "use client";
 
 import { useState } from "react";
+import NextLink from "next/link";
 import { motion } from "framer-motion";
+import { Icon } from "@iconify/react";
 
 import { ProjectCard } from "@/components/project-card";
 import { ProjectModal } from "@/components/project-modal";
-import { GradientText } from "@/components/textAnimations/gradient-text";
+import { SectionTitle } from "@/components/section-title";
 import { Project } from "@/components/projects/types";
 import { DATA } from "@/data";
 
 export const WorkSection = () => {
-  const { work } = DATA.projects;
-  const { sectionTitle, sectionDescription } = DATA.projects;
+  const { work, eyebrow, sectionTitle, sectionDescription } = DATA.projects;
 
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
@@ -19,23 +20,9 @@ export const WorkSection = () => {
   const handleCloseModal = () => setSelectedProject(null);
 
   return (
-    <section className="py-20 bg-background" id="work-section">
+    <section className="py-24 bg-background" id="work-section">
       <div className="max-w-7xl mx-auto px-4">
-        <motion.div
-          className="text-center mb-16"
-          initial={{ opacity: 0, y: 20 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          viewport={{ once: true }}
-          whileInView={{ opacity: 1, y: 0 }}
-        >
-          <GradientText
-            className="text-3xl md:text-4xl font-bold mb-4"
-            text={sectionTitle}
-          />
-          <p className="text-foreground-600 text-lg max-w-2xl mx-auto">
-            {sectionDescription}
-          </p>
-        </motion.div>
+        <SectionTitle description={sectionDescription} eyebrow={eyebrow} title={sectionTitle} />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-6">
           {work.slice(0, 3).map((project, index) => (
@@ -57,6 +44,16 @@ export const WorkSection = () => {
               />
             </motion.div>
           ))}
+        </div>
+
+        <div className="text-center mt-10">
+          <NextLink
+            className="inline-flex items-center gap-2 text-primary-500 font-medium hover:gap-3 transition-all"
+            href="/projects"
+          >
+            See all projects
+            <Icon icon="lucide:arrow-right" />
+          </NextLink>
         </div>
 
         <ProjectModal
